@@ -1,0 +1,15 @@
+#Py library
+Selenium
+pip install selenium
+pip install webdriver-manager
+
+#Firefox
+GeckoDriver
+sudo apt install firefox-geckodriver
+
+#tkinter
+sudo apt-get install python3-tk
+
+#create exec
+pyinstaller --onefile -w main.py
+

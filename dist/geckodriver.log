@@ -1,0 +1,116 @@
+1665418757143	geckodriver	INFO	Listening on 127.0.0.1:55255
+1665418757145	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-no-remote" "-profile" "/tmp/rust_mozprofileSnePua"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1665418758594	Marionette	INFO	Marionette enabled
+1665418758598	Marionette	INFO	Listening on port 42995
+Read port: 42995
+1665418758778	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileSnePua/search.json.mozlz4", (void 0)))
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+JavaScript error: https://cursos.alura.com.br/loginForm?urlAfterLogin=https://cursos.alura.com.br/dashboard, line 1022: SyntaxError: expected expression, got ','
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://cursos.alura.com.br."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://cursos.alura.com.br."
+JavaScript error: https://cursos.alura.com.br/assets/js/LoginProvider.14dedde8.js, line 1: TypeError: e is undefined
+JavaScript error: https://cursos.alura.com.br/assets/js/videos/shortcuts-action.0b2a228d.js, line 1: TypeError: e is null
+JavaScript error: https://cursos.alura.com.br/assets/js/videos/shortcuts-action.0b2a228d.js, line 1: TypeError: e is null
+JavaScript error: https://cursos.alura.com.br/assets/js/videos/shortcuts-action.0b2a228d.js, line 1: TypeError: e is null
+JavaScript error: https://cursos.alura.com.br/assets/js/videos/shortcuts-action.0b2a228d.js, line 1: TypeError: e is null
+JavaScript error: https://cursos.alura.com.br/assets/js/videos/shortcuts-action.0b2a228d.js, line 1: TypeError: e is null
+JavaScript error: https://cursos.alura.com.br/assets/js/user/payments/DynamicTabsManager.c9d9aa43.js, line 1: TypeError: this.renovationButton is null
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+console.error: "Error during quit-application-granted: [Exception... \"File error: Not found\"  nsresult: \"0x80520012 (NS_ERROR_FILE_NOT_FOUND)\"  location: \"JS frame :: resource:///modules/BrowserGlue.jsm :: _onQuitApplicationGranted/tasks< :: line 2009\"  data: no]"
+1665418870835	Marionette	INFO	Stopped listening on port 42995
+JavaScript error: chrome://remote/content/marionette/cert.js, line 57: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+1665495328556	geckodriver	INFO	Listening on 127.0.0.1:47263
+1665495329555	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-no-remote" "-profile" "/tmp/rust_mozprofileEing0f"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1665495330376	Marionette	INFO	Marionette enabled
+1665495330379	Marionette	INFO	Listening on port 44787
+Read port: 44787
+1665495330492	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileEing0f/search.json.mozlz4", (void 0)))
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+console.error: "Error during quit-application-granted: [Exception... \"File error: Not found\"  nsresult: \"0x80520012 (NS_ERROR_FILE_NOT_FOUND)\"  location: \"JS frame :: resource:///modules/BrowserGlue.jsm :: _onQuitApplicationGranted/tasks< :: line 2009\"  data: no]"
+1665495376751	Marionette	INFO	Stopped listening on port 44787
+JavaScript error: chrome://remote/content/marionette/cert.js, line 57: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+Sandbox: Unexpected EOF, op 0 flags 00 path /proc/cpuinfo
+1665495405887	geckodriver	INFO	Listening on 127.0.0.1:53097
+1665495406895	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-no-remote" "-profile" "/tmp/rust_mozprofilew8mchL"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1665495407552	Marionette	INFO	Marionette enabled
+1665495407555	Marionette	INFO	Listening on port 36345
+Read port: 36345
+1665495407624	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilew8mchL/search.json.mozlz4", (void 0)))
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+console.error: "Error during quit-application-granted: [Exception... \"File error: Not found\"  nsresult: \"0x80520012 (NS_ERROR_FILE_NOT_FOUND)\"  location: \"JS frame :: resource:///modules/BrowserGlue.jsm :: _onQuitApplicationGranted/tasks< :: line 2009\"  data: no]"
+1665495438626	Marionette	INFO	Stopped listening on port 36345
+JavaScript error: chrome://remote/content/marionette/cert.js, line 57: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+1665495442311	geckodriver	INFO	Listening on 127.0.0.1:51045
+1665495443318	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-no-remote" "-profile" "/tmp/rust_mozprofileezHPhs"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1665495443975	Marionette	INFO	Marionette enabled
+1665495443978	Marionette	INFO	Listening on port 45695
+Read port: 45695
+1665495444050	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileezHPhs/search.json.mozlz4", (void 0)))
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+JavaScript error: https://18.229.132.223/loginForm?urlAfterLogin=https://18.229.132.223/dashboard, line 1022: SyntaxError: expected expression, got ','
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://18.229.132.223."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://18.229.132.223."
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+console.error: "Error during quit-application-granted: [Exception... \"File error: Not found\"  nsresult: \"0x80520012 (NS_ERROR_FILE_NOT_FOUND)\"  location: \"JS frame :: resource:///modules/BrowserGlue.jsm :: _onQuitApplicationGranted/tasks< :: line 2009\"  data: no]"
+1665495493148	Marionette	INFO	Stopped listening on port 45695
+JavaScript error: chrome://remote/content/marionette/cert.js, line 57: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+1665495504263	geckodriver	INFO	Listening on 127.0.0.1:37419
+1665495504274	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-no-remote" "-profile" "/tmp/rust_mozprofileeqUkfT"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1665495504939	Marionette	INFO	Marionette enabled
+1665495504942	Marionette	INFO	Listening on port 46813
+Read port: 46813
+1665495505009	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileeqUkfT/search.json.mozlz4", (void 0)))
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+JavaScript error: https://18.229.132.223/loginForm?urlAfterLogin=https://18.229.132.223/dashboard, line 1022: SyntaxError: expected expression, got ','
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+console.error: "Error during quit-application-granted: [Exception... \"File error: Not found\"  nsresult: \"0x80520012 (NS_ERROR_FILE_NOT_FOUND)\"  location: \"JS frame :: resource:///modules/BrowserGlue.jsm :: _onQuitApplicationGranted/tasks< :: line 2009\"  data: no]"
+1665495507853	Marionette	INFO	Stopped listening on port 46813
+JavaScript error: chrome://remote/content/marionette/cert.js, line 57: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+Sandbox: Unexpected EOF, op 0 flags 00 path /proc/cpuinfo
+1665495525276	geckodriver	INFO	Listening on 127.0.0.1:43537
+1665495526283	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-no-remote" "-profile" "/tmp/rust_mozprofilecDP6yC"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1665495526947	Marionette	INFO	Marionette enabled
+1665495526950	Marionette	INFO	Listening on port 42715
+Read port: 42715
+1665495527017	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilecDP6yC/search.json.mozlz4", (void 0)))
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+JavaScript error: https://18.229.132.223/loginForm?urlAfterLogin=https://18.229.132.223/dashboard, line 1022: SyntaxError: expected expression, got ','
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://18.229.132.223."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://18.229.132.223."
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+console.error: "Error during quit-application-granted: [Exception... \"File error: Not found\"  nsresult: \"0x80520012 (NS_ERROR_FILE_NOT_FOUND)\"  location: \"JS frame :: resource:///modules/BrowserGlue.jsm :: _onQuitApplicationGranted/tasks< :: line 2009\"  data: no]"
+1665495531198	Marionette	INFO	Stopped listening on port 42715
+JavaScript error: chrome://remote/content/marionette/cert.js, line 57: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+Sandbox: Unexpected EOF, op 0 flags 00 path /proc/cpuinfo
