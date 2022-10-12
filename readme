@@ -4,7 +4,7 @@ pip install selenium
 pip install webdriver-manager
 
 #Firefox
-GeckoDriver
+GeckoDriver NEEDED TO RUN THE .EXE
 sudo apt install firefox-geckodriver
 
 #tkinter

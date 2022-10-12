@@ -1,13 +1,12 @@
 import tkinter as tk
 from functools import partial
+import subprocess
 
 from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.common.by import By
 from selenium.webdriver.common.action_chains import ActionChains
 import time
-
-# os.system("gnome-terminal -e 'printf testando cmd'")
 
 # logging in
 def log_in(email, password, url):
@@ -16,6 +15,12 @@ def log_in(email, password, url):
     e_url = (url.get())
     driver = webdriver.Firefox()
     driver.get(e_url)
+
+    # call terminal tests
+    # os.system("gnome-terminal -e 'printf testando cmd'")
+    # cmd = "git --version"
+    # returned = subprocess.call(cmd, shell=True)
+    # print('returned value:', returned)
 
     driver.find_element('xpath', '/html/body/div/div[2]/button[3]').click()
     driver.find_element('xpath', '//*[@id="details-button"]').click()
