@@ -1,3 +1,9 @@
+#Gnarus Warm Up
+
+Este projeto tem como objetivo automatizar a parte de "esquentar a máquina"
+durante o deploy, fazendo com que não se tenha que fazer toda aquela parte
+chata de ficar clicando em cada endpoint para ir carregando as JSP's.
+
 #Py library
 Selenium
 pip install selenium
