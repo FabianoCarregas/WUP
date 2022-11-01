@@ -1,167 +1,99 @@
 import tkinter as tk
 from functools import partial
-import subprocess
+from tkinter import messagebox
+import alura
 
-from selenium import webdriver
-from selenium.webdriver.common.keys import Keys
-from selenium.webdriver.common.by import By
-from selenium.webdriver.common.action_chains import ActionChains
-import time
+white = "white"
+grey = "#3e3e42"
+dark = "#252526"
+blue = "#007acc"
 
-# logging in
-def log_in(email, password, url):
-    e_mail = (email.get())
-    pass_word = (password.get())
-    e_url = (url.get())
-    driver = webdriver.Firefox()
-    driver.get(e_url)
+def call_env():
+    env = option.get()
+    if env == "Alura":
+        log_in.__call__()
 
-    # call terminal tests
-    # os.system("gnome-terminal -e 'printf testando cmd'")
-    # cmd = "git --version"
-    # returned = subprocess.call(cmd, shell=True)
-    # print('returned value:', returned)
+    if env == "Alura-Start":
+        messagebox.showinfo("Alura-Start", "Not implemented")
 
-    driver.find_element('xpath', '/html/body/div/div[2]/button[3]').click()
-    driver.find_element('xpath', '//*[@id="details-button"]').click()
-    time.sleep(2)
-    driver.find_element('xpath', '//*[@id="login-email"]').send_keys(e_mail)
-    driver.find_element('xpath', '//*[@id="password"]').send_keys(pass_word)
-    driver.find_element('xpath', '/html/body/div[3]/section/section[1]/form/div[1]/button').click()
+    if env == "Alura-Lingua":
+        messagebox.showinfo("Alura-Lingua", "Not implemented")
 
-    action = ActionChains(driver)
-    driver.find_element(By.CLASS_NAME, 'headerBusca-icon-svg').click()
-    driver.find_element(By.ID, 'headerBusca-campoBusca').send_keys('Certificação Java SE 7 Programmer I')
-    driver.find_element(By.CLASS_NAME, 'headerBusca-submit').click()
-    time.sleep(2)
-    driver.find_element('xpath', '/html/body/div[4]/div[2]/section/ul/li[1]/a/div/p').click()
-    driver.find_element(By.CLASS_NAME, 'course-header-button').click()
-    time.sleep(2)
-    action.send_keys(Keys.SPACE).perform()
-    time.sleep(8)
+    if env == "MusicDot":
+        messagebox.showinfo("MusicDot", "Not implemented")
 
-    driver.find_element(By.CLASS_NAME, 'task-actions-button-next').click()
-    driver.find_element(By.CLASS_NAME, 'task-actions-button-next').click()
-    driver.find_element(By.CLASS_NAME, 'task-actions-button-next').click()
-    driver.find_element(By.CLASS_NAME, 'task-actions-button-next').click()
-    driver.find_element(By.CLASS_NAME, 'task-actions-button-next').click()
-    time.sleep(2)
+    if env == "Alura-Latam":
+        messagebox.showinfo("Alura-Latam", "Not implemented")
 
-    # learning
-    driver.get(e_url)
+    if env == "BootCamp":
+        messagebox.showinfo("BootCamp", "Not implemented")
 
-    driver.find_element(By.ID, 'courseLabel').click()
-    driver.find_element(By.CLASS_NAME, 'header-nav-link--courses').click()
-    time.sleep(1)
+    if env == "TechPos":
+        messagebox.showinfo("TechPos", "Not implemented")
 
-    driver.find_element(By.ID, 'courseLabel').click()
-    driver.find_element(By.CLASS_NAME, 'header-nav-link--user-guides').click()
-    time.sleep(1)
+    if env == "Alura-Online":
+        messagebox.showinfo("Alura-Online", "Not implemented")
 
-    driver.find_element(By.ID, 'courseLabel').click()
-    driver.find_element(By.CLASS_NAME, 'header-nav-link--company-guides').click()
-    time.sleep(1)
 
-    #content
-    driver.find_element(By.ID, 'contentLabel').click()
-    driver.find_element(By.CLASS_NAME, 'header-item-link--gnarusflix').click()
-    driver.execute_script("window.scrollTo(0,6000)")
-    time.sleep(1)
-    driver.execute_script("window.scrollTo(0,0)")
-    time.sleep(1)
-
-    driver.find_element(By.ID, 'contentLabel').click()
-    driver.find_element(By.CLASS_NAME, 'header-item-link--alura-mais').click()
-    driver.execute_script("window.scrollTo(0,6000)")
-    time.sleep(1)
-    driver.execute_script("window.scrollTo(0,0)")
-    time.sleep(1)
-
-    driver.find_element(By.ID, 'contentLabel').click()
-    driver.find_element(By.CLASS_NAME, 'header-item-link--degrees').click()
-    time.sleep(1)
-
-    driver.find_element(By.ID, 'contentLabel').click()
-    driver.find_element(By.CLASS_NAME, 'header-item-link--immersions').click()
-    time.sleep(1)
-
-    driver.find_element(By.ID, 'contentLabel').click()
-    driver.find_element(By.CLASS_NAME, 'header-item-link--cases').click()
-    time.sleep(1)
-
-    driver.find_element(By.ID, 'contentLabel').click()
-    driver.find_element(By.CLASS_NAME, 'header-item-link--projects').click()
-    time.sleep(1)
-
-    driver.find_element(By.ID, 'contentLabel').click()
-    driver.find_element(By.CLASS_NAME, 'header-item-link--podcasts').click()
-    time.sleep(1)
-
-    driver.find_element(By.ID, 'contentLabel').click()
-    driver.find_element(By.CLASS_NAME, 'header-item-link--recommendations').click()
-    time.sleep(1)
-
-    #comunity
-    driver.find_element('xpath', '/html/body/header[1]/div/nav/div[3]/a').click()
-    driver.find_element(By.CLASS_NAME, 'header-item-link--forum').click()
-    time.sleep(1)
-
-    driver.find_element('xpath', '/html/body/header[1]/div/nav/div[3]/a').click()
-    driver.find_element(By.CLASS_NAME, 'header-item-link--forum-interactions').click()
-    time.sleep(1)
-
-    driver.find_element('xpath', '/html/body/header[1]/div/nav/div[3]/a').click()
-    driver.find_element(By.CLASS_NAME, 'header-nav-link--ranking').click()
-    time.sleep(1)
-
-    driver.find_element('xpath', '/html/body/header[1]/div/nav/div[3]/a').click()
-    driver.find_element(By.CLASS_NAME, 'header-nav-link--public-user-guides').click()
-    time.sleep(1)
-
-    #news
-    driver.find_element('xpath', '/html/body/header[1]/div/nav/div[4]/button').click()
-    time.sleep(1)
-    driver.find_element('xpath', '/html/body/header[1]/div/nav/div[5]/a/div[2]/div[18]').click()
-    time.sleep(1)
-
-    #profile
-    driver.find_element('xpath', '/html/body/header[1]/div/nav/div[6]/a/span').click()
-    driver.find_element(By.CLASS_NAME, 'header-nav-link--profile').click()
-    time.sleep(1)
-
-    driver.find_element('xpath', '/html/body/header[1]/div/nav/div[6]/a/span').click()
-    driver.find_element(By.CLASS_NAME, 'header-nav-link--profile-edit').click()
-    time.sleep(1)
-
-    driver.find_element('xpath', '/html/body/header[1]/div/nav/div[6]/a/span').click()
-    driver.find_element(By.CLASS_NAME, 'header-nav-link--purchases').click()
-    time.sleep(1)
-
-    driver.find_element('xpath', '/html/body/header[1]/div/nav/div[6]/a/span').click()
-    driver.find_element(By.CLASS_NAME, 'header-item-link--vitrinedev').click()
-    return
+env_options = ["Alura",
+               "Alura-Start",
+               "Alura-Lingua",
+               "MusicDot",
+               "Alura-Latam",
+               "BootCamp",
+               "TechPos",
+               "Alura-Online"]
 
 window = tk.Tk()
 window.title('WUG')
-window.geometry("390x165")
+window.geometry("390x295")
+window.resizable(width=False, height=False)
+
+frame_up = tk.Frame(window, width=390, height=40, bg=dark)
+frame_up.grid(row=0, column=0)
+
+frame_down = tk.Frame(window, width=390, height=300, bg=dark)
+frame_down.grid(row=1, column=0)
+
+option = tk.StringVar(window)
+option.set("Alura")
 
 var_email = tk.StringVar()
 var_password = tk.StringVar()
 var_url = tk.StringVar()
 
-tk.Label(window, text='Warm up Gnarus').grid(column=1, row=0)
+heading = tk.Label(frame_up, text='Warm up Gnarus', bg=dark, fg=white, font=('Poppins 16'))
+heading.place(x=100, y=5)
 
-tk.Label(window, text='-url-').grid(column=0, row=1)
-url = tk.Entry(window, textvariable=var_url, width=35).grid(column=1, row=1)
+line = tk.Label(frame_up, text='', bg=blue, width=80, height=1)
+line.place(x=0, y=33)
 
-tk.Label(window, text='Email').grid(column=0, row=2)
-email = tk.Entry(window, textvariable=var_email, width=35).grid(column=1, row=2)
+url_label = tk.Label(frame_down, text='url *', bg=dark, fg=white, font=('Poppins 10'))
+url_label.place(x=20, y=10)
+url = tk.Entry(frame_down, textvariable=var_url, width=43, bg=grey, fg=white)
+url.place(x=20, y=30)
 
-tk.Label(window, text='Key').grid(column=0, row=3)
-password = tk.Entry(window, textvariable=var_password, show='*', width=35).grid(column=1, row=3)
-tk.Checkbutton(window, text='save').grid(column=0, row=4)
+email_label = tk.Label(frame_down, text='email *', bg=dark, fg=white, font=('Poppins 10'))
+email_label.place(x=20, y=65)
+email = email = tk.Entry(frame_down, textvariable=var_email, width=43, bg=grey, fg=white)
+email.place(x=20, y=85)
 
-log_in = partial(log_in, var_email, var_password, var_url)
-tk.Button(window, text='$-START-$', command=log_in).grid(column=1, row=5)
+pass_label = tk.Label(frame_down, text='password *', bg=dark, fg=white, font=('Poppins 10'))
+pass_label.place(x=20, y=119)
+password = tk.Entry(frame_down, textvariable=var_password, show='*', width=35, bg=grey, fg=white)
+password.place(x=20, y=139)
+
+save = tk.Checkbutton(frame_down, text='save', bg=dark, fg=white, activebackground=grey, font=('Poppins 10'))
+save.place(x=310, y=139)
+
+drop = tk.OptionMenu(frame_down, option, *env_options)
+drop.config(bg=grey, fg=white)
+drop.place(x=195, y=195)
+
+log_in = partial(alura.log_in, var_email, var_password, var_url)
+
+start = tk.Button(frame_down, text='START', command=call_env)
+start.config(bg=blue, fg=white)
+start.place(x=90, y=196)
 
 window.mainloop()

@@ -1,0 +1,50 @@
+1665677913639	geckodriver	INFO	Listening on 127.0.0.1:51559
+1665677913641	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-no-remote" "-profile" "/tmp/rust_mozprofile9Mnnmn"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1665677914240	Marionette	INFO	Marionette enabled
+1665677914243	Marionette	INFO	Listening on port 45729
+Read port: 45729
+1665677914425	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile9Mnnmn/search.json.mozlz4", (void 0)))
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+JavaScript error: https://cursos.alura.com.br/loginForm?urlAfterLogin=https://cursos.alura.com.br/dashboard, line 1022: SyntaxError: expected expression, got ','
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://cursos.alura.com.br."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://cursos.alura.com.br."
+JavaScript error: https://cursos.alura.com.br/assets/js/videos/shortcuts-action.0b2a228d.js, line 1: TypeError: e is null
+JavaScript error: https://cursos.alura.com.br/assets/js/videos/shortcuts-action.0b2a228d.js, line 1: TypeError: e is null
+JavaScript error: https://cursos.alura.com.br/assets/js/videos/shortcuts-action.0b2a228d.js, line 1: TypeError: e is null
+JavaScript error: https://cursos.alura.com.br/assets/js/videos/shortcuts-action.0b2a228d.js, line 1: TypeError: e is null
+JavaScript error: https://cursos.alura.com.br/assets/js/videos/shortcuts-action.0b2a228d.js, line 1: TypeError: e is null
+JavaScript error: https://cursos.alura.com.br/assets/js/user/payments/DynamicTabsManager.c9d9aa43.js, line 1: TypeError: this.renovationButton is null
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+console.error: "Error during quit-application-granted: [Exception... \"File error: Not found\"  nsresult: \"0x80520012 (NS_ERROR_FILE_NOT_FOUND)\"  location: \"JS frame :: resource:///modules/BrowserGlue.jsm :: _onQuitApplicationGranted/tasks< :: line 2009\"  data: no]"
+1665678033445	Marionette	INFO	Stopped listening on port 45729
+JavaScript error: chrome://remote/content/marionette/cert.js, line 57: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+1666287750453	geckodriver	INFO	Listening on 127.0.0.1:45651
+1666287750455	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-no-remote" "-profile" "/tmp/rust_mozprofileJtToe6"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1666287751190	Marionette	INFO	Marionette enabled
+1666287751193	Marionette	INFO	Listening on port 40297
+Read port: 40297
+1666287751356	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileJtToe6/search.json.mozlz4", (void 0)))
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+JavaScript error: https://18.231.192.191/loginForm?urlAfterLogin=https://18.231.192.191/dashboard, line 1022: SyntaxError: expected expression, got ','
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://18.231.192.191."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://18.231.192.191."
+JavaScript error: https://18.231.192.191/assets/js/videos/shortcuts-action.0b2a228d.js, line 1: TypeError: e is null
+JavaScript error: https://18.231.192.191/assets/js/videos/shortcuts-action.0b2a228d.js, line 1: TypeError: e is null
+JavaScript error: https://18.231.192.191/assets/js/videos/shortcuts-action.0b2a228d.js, line 1: TypeError: e is null
+JavaScript error: https://18.231.192.191/assets/js/videos/shortcuts-action.0b2a228d.js, line 1: TypeError: e is null
+JavaScript error: https://18.231.192.191/assets/js/videos/shortcuts-action.0b2a228d.js, line 1: TypeError: e is null
+JavaScript error: https://18.231.192.191/assets/js/user/payments/DynamicTabsManager.c9d9aa43.js, line 1: TypeError: this.renovationButton is null
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+console.error: "Error during quit-application-granted: [Exception... \"File error: Not found\"  nsresult: \"0x80520012 (NS_ERROR_FILE_NOT_FOUND)\"  location: \"JS frame :: resource:///modules/BrowserGlue.jsm :: _onQuitApplicationGranted/tasks< :: line 2009\"  data: no]"
+1666287925810	Marionette	INFO	Stopped listening on port 40297
+JavaScript error: chrome://remote/content/marionette/cert.js, line 57: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
