@@ -2,17 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1fc1582d-bd05-4ace-8fd7-fb14277972ff" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/alura.py" beforeDir="false" afterPath="$PROJECT_DIR$/envs/alura.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bootcamp.py" beforeDir="false" afterPath="$PROJECT_DIR$/envs/bootcamp.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/latam.py" beforeDir="false" afterPath="$PROJECT_DIR$/envs/latam.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lingua.py" beforeDir="false" afterPath="$PROJECT_DIR$/envs/lingua.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/musicDot.py" beforeDir="false" afterPath="$PROJECT_DIR$/envs/musicDot.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/online.py" beforeDir="false" afterPath="$PROJECT_DIR$/envs/online.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/readme" beforeDir="false" afterPath="$PROJECT_DIR$/readme" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/start.py" beforeDir="false" afterPath="$PROJECT_DIR$/envs/start.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/techpos.py" beforeDir="false" afterPath="$PROJECT_DIR$/envs/techpos.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,13 +28,13 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "/home/fabs/Desktop/littleProjects/py/WUP"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/fabs/Desktop/littleProjects/py/WUP&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
