@@ -1,11 +1,12 @@
 import tkinter as tk
 from functools import partial
-from envs import lingua, latam, bootcamp, alura, online, musicDot, techpos, start
+from envs import start, alura, online, latam, musicDot, techpos, lingua, bootcamp
 
 white = "white"
 grey = "#3e3e42"
 dark = "#252526"
 blue = "#007acc"
+
 
 def call_env():
     env = option.get()
@@ -67,6 +68,7 @@ heading.place(x=100, y=5)
 line = tk.Label(frame_up, text='', bg=blue, width=80, height=1)
 line.place(x=0, y=33)
 
+# interface login input's
 url_label = tk.Label(frame_down, text='url *', bg=dark, fg=white, font=('Poppins 10'))
 url_label.place(x=20, y=10)
 url = tk.Entry(frame_down, textvariable=var_url, width=43, bg=grey, fg=white)
