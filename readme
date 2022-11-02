@@ -1,16 +1,18 @@
 #Gnarus Warm Up
 
-Este projeto tem como objetivo automatizar a parte de "esquentar a máquina"
-durante o deploy, fazendo com que não se tenha que fazer toda aquela parte
-chata de ficar clicando em cada endpoint para ir carregando as JSP's.
+This little project look after to help my work mates
+warm up the alura env's to be deployed, instead of to click in every little button
+now you can drink you coffee and relax a bit by the time this bot can do it for ya :)
+You can also contribute to the project by reporting or checking a issue
 
-#Py library
+*to run the project in your you will need*
+
+#Py lib's
 Selenium
 pip install selenium
 pip install webdriver-manager
 
 #Firefox
-GeckoDriver NEEDED TO RUN THE .EXE
 sudo apt install firefox-geckodriver
 
 #tkinter
@@ -18,3 +20,15 @@ sudo apt-get install python3-tk
 
 #create exec
 pyinstaller --onefile -w main.py
+
+*If you just want to use the .exe file*
+
+with our .exe we will need no lib's
+only the Geckodriver that's used to the selenium open and control your firefox
+
+sudo apt install firefox-geckodriver
+
+That's it, now you just need to clone the project in any local that you want and run the file WUP/dist/main.exe
+
+interface
+![plot](./dist/interfaceV01.png)
