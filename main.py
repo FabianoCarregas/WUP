@@ -1,46 +1,37 @@
 import tkinter as tk
 from functools import partial
-from tkinter import messagebox
-import alura
-import start
-import lingua
-import musicDot
-import latam
-import bootcamp
-import techpos
-import online
+from envs import lingua, latam, bootcamp, alura, online, musicDot, techpos, start
 
 white = "white"
 grey = "#3e3e42"
 dark = "#252526"
 blue = "#007acc"
 
-
 def call_env():
     env = option.get()
     if env == "Alura":
-        log_alura.__call__()
+        partial(alura.run, var_email, var_password, var_url).__call__()
 
     if env == "Alura-Start":
-        log_start.__call__()
+        partial(start.run, var_email, var_password, var_url).__call__()
 
     if env == "Alura-Lingua":
-        log_lingua.__call__()
+        partial(lingua.run, var_email, var_password, var_url).__call__()
 
     if env == "MusicDot":
-        log_musicDot.__call__()
+        partial(musicDot.run, var_email, var_password, var_url).__call__()
 
     if env == "Alura-Latam":
-        log_latam.__call__()
+        partial(latam.run, var_email, var_password, var_url).__call__()
 
     if env == "BootCamp":
-        log_bootcamp.__call__()
+        partial(bootcamp.run, var_email, var_password, var_url).__call__()
 
     if env == "TechPos":
-        log_techpos.__call__()
+        partial(techpos.run, var_email, var_password, var_url).__call__()
 
     if env == "Alura-Online":
-        log_online.__call__()
+        partial(online.run, var_email, var_password, var_url).__call__()
 
 
 env_options = ["Alura",
@@ -101,14 +92,5 @@ drop.place(x=195, y=195)
 warm = tk.Button(frame_down, text='START', command=call_env)
 warm.config(bg=blue, fg=white)
 warm.place(x=90, y=196)
-
-log_alura = partial(alura.run, var_email, var_password, var_url)
-log_start = partial(start.run, var_email, var_password, var_url)
-log_lingua = partial(lingua.run, var_email, var_password, var_url)
-log_musicDot = partial(musicDot.run, var_email, var_password, var_url)
-log_latam = partial(latam.run, var_email, var_password, var_url)
-log_bootcamp = partial(bootcamp.run, var_email, var_password, var_url)
-log_techpos = partial(techpos.run, var_email, var_password, var_url)
-log_online = partial(online.run, var_email, var_password, var_url)
 
 window.mainloop()
