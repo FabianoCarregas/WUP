@@ -30,5 +30,4 @@ sudo apt install firefox-geckodriver
 
 That's it, now you just need to clone the project in any local that you want and run the file WUP/dist/main.exe
 
-interface
 ![alt text](https://github.com/FabianoCarregas/WUP/blob/master/dist/interfaceV01.png?raw=true)
