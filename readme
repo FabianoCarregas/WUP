@@ -3,9 +3,9 @@
 This little project look after to help my work mates
 warm up the alura env's to be deployed, instead of to click in every little button
 now you can drink you coffee and relax a bit by the time this bot can do it for ya :)
-You can also contribute to the project by reporting or checking a issue
+You can also contribute to the project by reporting a problem or checking a issue
 
-*to run the project in your you will need*
+*to run the project you will need ->*
 
 #Py lib's
 Selenium
