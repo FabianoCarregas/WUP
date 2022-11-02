@@ -2,20 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1fc1582d-bd05-4ace-8fd7-fb14277972ff" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/main/Analysis-00.toc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/main/EXE-00.toc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/main/PKG-00.toc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/main/PYZ-00.pyz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/main/PYZ-00.toc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/main/Tree-00.toc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/main/Tree-01.toc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/main/base_library.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/main/main.pkg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/main/warn-main.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/main/xref-main.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/main" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/geckodriver.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alura.py" beforeDir="false" afterPath="$PROJECT_DIR$/envs/alura.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bootcamp.py" beforeDir="false" afterPath="$PROJECT_DIR$/envs/bootcamp.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/latam.py" beforeDir="false" afterPath="$PROJECT_DIR$/envs/latam.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lingua.py" beforeDir="false" afterPath="$PROJECT_DIR$/envs/lingua.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/musicDot.py" beforeDir="false" afterPath="$PROJECT_DIR$/envs/musicDot.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/online.py" beforeDir="false" afterPath="$PROJECT_DIR$/envs/online.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/start.py" beforeDir="false" afterPath="$PROJECT_DIR$/envs/start.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/techpos.py" beforeDir="false" afterPath="$PROJECT_DIR$/envs/techpos.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,6 +46,9 @@
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/envs" />
     </key>
   </component>
   <component name="RunManager">
