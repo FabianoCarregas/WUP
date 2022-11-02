@@ -18,4 +18,3 @@ sudo apt-get install python3-tk
 
 #create exec
 pyinstaller --onefile -w main.py
-

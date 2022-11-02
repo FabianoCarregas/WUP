@@ -4,7 +4,7 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.common.action_chains import ActionChains
 import time
 
-def log_in(email, password, url):
+def run(email, password, url):
 
     e_mail = (email.get())
     pass_word = (password.get())
