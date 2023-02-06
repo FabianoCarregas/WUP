@@ -1,17 +1,12 @@
 # Gnarus Warm Up
 
-This little project looks after my workmates on the matter of warming up the alura's
-env's to be deployed, instead of clicking in every little button
+This little project looks after help my dear workmates on the matter of warming up the deployment machine
+environment to be deployed, instead of clicking in every little button
 Now you can drink your coffee and relax a bit by the time this bot can do it for ya :)
-You can also contribute to the project by reporting a problem or checking an issue.
 
 ## to run the project follow the steps bellow
 
-By following the steps below, you'll be able to open the project on the ide of your
-preference and contribute to the project if you wish for, but if you do, before you push your branch
-is important to create a new .exe with your modification for the others that you use
-can be beneficiaries of your improvement.
-To do it the follow the step "create .exe" 
+By following the steps below, you'll be able to open the project on the ide.
 
 ### Py lib's
 Selenium
